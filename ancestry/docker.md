@@ -3,7 +3,7 @@
 ```
 bsub -Is -q ccdg -a 'docker(halllab/rfmix203r0:v2)' -M 64000000 /bin/bash
 unset LD_LIBRARY_PATH
-/opt/hall-lab/rfmix-2.03r0/bin/rfmix -f small.vcf -r ref.3.vcf -m sample.map -g genetic_map_hg38_withX.rfmix.chr.txt -o test --chromosome=chr21 --crf-weight=1
+/opt/hall-lab/rfmix-2.03r0/bin/rfmix -f small.vcf -r ref.3.vcf -m sample.map -g genetic_map_hg38_withX.rfmix.chr.txt -o test --chromosome=c
 ```
   - working
 
@@ -26,3 +26,6 @@ Defining and initializing conditional random field...   done
 
 Killed
 ```
+ - Test with ref 500 sites : Killed at Growing random forest trees
+ - test with 10/50 : working
+ - randomly selected ~3K : Working ?
