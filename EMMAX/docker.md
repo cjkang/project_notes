@@ -21,3 +21,15 @@
   /opt/ccdg/epacts/bin/pEmmax gen-kin --vcf pruned.vcf.bgz  --region 1:1-10000000 --field GT --minMAF 0.01 --minCallRate 0.95 --out-kinf test.1.1.10000000.kin --raw --ignoreFilter
    test.Makefile:9: recipe for target 'test.1.1.10000000.kin' failed
    ```
+- Make small test set (5k var) without chr : Same seg fault
+
+- Try without `region` parameter
+ ```
+ /opt/ccdg/epacts/bin/pEmmax gen-kin --vcf test.vcf --out-kinf temp
+ ```
+- is working : tabix issue? couldn't call tabix
+
+- Run 
+ ```
+ /opt/ccdg/epacts/bin/pEmmax gen-kin --vcf pruned.vcf.bgz   --field GT --minMAF 0.01 --minCallRate 0.95 --out-kinf eocad.emmax.kinship --raw --ignoreFilter
+ ```
