@@ -4,11 +4,14 @@
   - No overlapping gene/region
   
 - Region based test
-  - prep two hail matrix tables 
-  - Per one matrix table, there's no overlap but overlap with the other table
-  - 4kb window
-  - one table starting at 0, the other one starting at 2000
-  
+  - 4kb windows, 2kb step size
+  - prep a matrix table with 2 annotations - region1 / region2
+    - biallelic only
+  - region1 starting at 0, region2 starting at 2000
+  - apply SKAT separately then merge the results
+    - Need to apply variant/sample filters later
+      - MAF, PASS etc.
+      
 - Gene based test
   - filter `HIGH` and `MODERATE` at VEP's `IMPACT` field
   - HGNC genes only
