@@ -16,11 +16,15 @@
 
 - Run
   - Run `fit_null_glm` or `fit_null_glmkin`
-    - EX) `fit_null_glmkin(CVD~PC1, data=pheno, id = "IND_ID", family = binomial(link="logit"))`
+    - Ex) `obj_null <- fit_null_glmkin(CVD~PC1, data=pheno, id = "IND_ID", family = binomial(link="logit"))`
     
- 
   - Run `SCANG`
-
+    - genotype data
+    - min/max number of variants in search window
+    - MAF cutoff
+    - And other options - alpha, filter, f, steplength
+    - Ex) `scang_out <- SCANG(genotype, obj_null, lmin = 50, lmax = 500, rare_maf_cutoff=0.05
+    
 
 - Run on MGI cluster
 ```
