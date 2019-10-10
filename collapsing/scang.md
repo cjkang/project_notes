@@ -15,7 +15,10 @@
   - $SCANG_O_thres : Empirical threshold of SCANG-O for controlling the family-wise type I error at alpha level.
 
 - Run
-  - Run `fit_null_glm`
+  - Run `fit_null_glm` or `fit_null_glmkin`
+    - EX) `fit_null_glmkin(CVD~PC1, data=pheno, id = "IND_ID", family = binomial(link="logit"))`
+    
+ 
   - Run `SCANG`
 
 
