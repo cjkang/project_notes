@@ -6,6 +6,7 @@
   - (n,m) genotype matrix (n samples, m sites)
     - Single input for whole genome (not per chr analysis)
     - dosage
+      - create VCF with hail and convert to dosage with `bcftools` : `bcftools +missing2ref  chr22.noafib_maf6.5_filtered.vcf.bgz | bcftools +dosage  --  -t GT > 22.dosage`
   - Phenotype 
   - Covariates
   
