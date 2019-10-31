@@ -11,7 +11,11 @@
   - apply SKAT separately then merge the results
     - Need to apply variant/sample filters later
       - MAF, PASS etc.
-      
+  - Try SKAT-O
+    - Prep data
+      - plink bed
+    - Run SKAT script
+    
 - Gene based test
   - filter `HIGH` and `MODERATE` at VEP's `IMPACT` field
   - HGNC genes only
