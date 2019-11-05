@@ -9,10 +9,11 @@
   - Figure out phasing info of the overlapping markers and non overlapping ones
   - Assign ancestry based on the distance?
 - Case 4: "mosaic" ancestry on both haplotype segments
+- Case 5: ancestry phasing and variant phasing not matching (due to RFMix or separate phasing)
   - Kill me...
 
 # Prep ancestry info
-- From RFMix output (Viterbi), create a single bed file
+- From RFMix output (Viterbi and allelesRephased0), create a single bed file
 - Row : segment
 - Col : hap? or sample?
 - Needs allele info and ancestry info
