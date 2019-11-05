@@ -10,3 +10,13 @@
   - Assign ancestry based on the distance?
 - Case 4: "mosaic" ancestry on both haplotype segments
   - Kill me...
+
+# Prep ancestry info
+- From RFMix output (Viterbi), create a single bed file
+- Row : segment
+- Col : hap? or sample?
+- Needs allele info and ancestry info
+
+# Infer ancestry
+- From phased VCF
+- Move segment by segment
