@@ -16,3 +16,4 @@
     - Reconstructing Native American Population History
     -Latin Americans show wide-spread Converso ancestry and imprint of local Native ancestry on physical appearance
       - YRI, IBS and native american?
+- Run Admixture or STRUCTURE on AMR/CEU/YRI then pick samples on the distint cluster.
