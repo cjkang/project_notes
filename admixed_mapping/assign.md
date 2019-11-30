@@ -24,3 +24,8 @@
 # Infer ancestry
 - From phased VCF
 - Move segment by segment
+
+
+### USE RFMIX TRIOPHASE
+- There will be no "correct phase" on triophase
+- from the phased vcf (chunk), run rfmix separately
