@@ -35,5 +35,5 @@
 1) copy phased files `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/phase/out/*vcf.gz` to google cloud `gs://wustl-gatk4-call-set-20190614-analysis/users/cjkang/ancestry/phased_vcf/`
 2) filter overlapping sites (vcf + ref tsv) `gs://wustl-gatk4-call-set-20190614-analysis/users/cjkang/ancestry/phased_vcf/*filtered*
 3) copy to MGI cluster `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/phased`
-4) create rfmix infiles with `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/rfmix/makeinfile.py`
-5) Run rfmix with `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/rfmix/run.py`
+4) create rfmix infiles with `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/rfmix/makeinfiles.py [chrom]`
+5) Run rfmix with `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/rfmix/runseg.py [chrom]`
