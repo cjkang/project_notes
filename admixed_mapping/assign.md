@@ -37,4 +37,4 @@
 3) copy to MGI cluster `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/phased`
 4) create rfmix infiles with `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/rfmix/makeinfiles.py [chrom]`
 5) Run rfmix with `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/rfmix/run.py [chrom]`
-6) Make a single ancestry file `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/rfmix/run.py [segment]`
+6) Make a single ancestry file `/gscmnt/gc2802/halllab/ckang/CCDG/EOCAD_AA_2019/ancestry_gwas/rfmix/sum.py [segment]`
