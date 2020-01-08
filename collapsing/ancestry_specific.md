@@ -1,8 +1,8 @@
-## Ancestry specific SKAT
+# Ancestry specific SKAT
 - with hail
 - Different ped for each region
-# Ancestry
+## Ancestry
 - from rfmix
 - create 5kb window ancestry
-# SKAT
+## SKAT
 - Create per window ped based on ancestry
